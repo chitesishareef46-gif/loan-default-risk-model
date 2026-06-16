@@ -70,26 +70,26 @@ The default rate climbs cleanly and monotonically from 6.5% to 50% as the model'
 
 ### 1. Training Loss Curve
 Shows the gradient descent algorithm converging — confirms the model trained correctly.
-![Training Loss](outputs/01_training_loss.png)
+![Training Loss](outputs/loan_01_training_loss.png)
 
 ### 2. ROC Curve
 AUC of 0.780, well above the random baseline of 0.5.
-![ROC Curve](outputs/02_roc_curve.png)
+![ROC Curve](outputs/loan_02_roc_curve.png)
 
 ### 3. Confusion Matrix
-![Confusion Matrix](outputs/03_confusion_matrix.png)
+![Confusion Matrix](outputs/loan_03_confusion_matrix.png)
 
 ### 4. Feature Importance
 Which factors actually drive default risk, and in which direction.
-![Feature Importance](outputs/04_feature_importance.png)
+![Feature Importance](outputs/loan_04_feature_importance.png)
 
 ### 5. Risk Band Segmentation
 Visual proof that the model's risk bands correspond to real differences in default behaviour.
-![Risk Segmentation](outputs/05_risk_segmentation.png)
+![Risk Segmentation](outputs/loan_05_risk_segmentation.png)
 
 ### 6. Predicted Probability Distribution
 How well the model separates defaulters from non-defaulters.
-![Probability Distribution](outputs/06_probability_distribution.png)
+![Probability Distribution](outputs/loan_06_probability_distribution.png)
 
 ---
 
@@ -136,12 +136,12 @@ loan-default-risk-model/
 │                                  # (Import directly into Power BI)
 │
 ├── outputs/
-│   ├── 01_training_loss.png
-│   ├── 02_roc_curve.png
-│   ├── 03_confusion_matrix.png
-│   ├── 04_feature_importance.png
-│   ├── 05_risk_segmentation.png
-│   └── 06_probability_distribution.png
+│   ├── loan_01_training_loss.png
+│   ├── loan_02_roc_curve.png
+│   ├── loan_03_confusion_matrix.png
+│   ├── loan_04_feature_importance.png
+│   ├── loan_05_risk_segmentation.png
+│   └── loan_06_probability_distribution.png
 │
 └── README.md
 ```
